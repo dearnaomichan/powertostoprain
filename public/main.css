@@ -1,0 +1,25 @@
+/*apply a natural box layout model to all elements but allowing components to change*/
+html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,body {
+  /*background: url('assets/jupiter_surface.png');*/
+  height: 100%;
+  width: 100%;
+  font-size:30px;
+  /*background-color: black;*/
+  margin: 0;
+  padding: 0;
+}
+
+
+.content{
+  /*display: flex;
+  flex-direction: column;*/
+}

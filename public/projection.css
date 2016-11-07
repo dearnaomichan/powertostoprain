@@ -1,0 +1,29 @@
+/*apply a natural box layout model to all elements but allowing components to change*/
+html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,body {
+
+  font-size:30px;
+  padding: 0; margin: 0;
+}
+
+.wrap-sketch-holder {
+  /*-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;*/
+
+  position: fixed;
+  display: flex;
+  flex-grow: 1;
+}
+#sketch-holder{
+  position: absolute;
+  margin: auto;
+}
