@@ -1,5 +1,5 @@
 
-  var socket = io.connect('http://150.253.91.141:3010') //connect to the server
+  var socket = io.connect() //connect to the server
   socket.on('connect', function(data){ // when connected do something
     console.log("connected to the server" + socket.id); // log out our id
 

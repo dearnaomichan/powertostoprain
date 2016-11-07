@@ -3,9 +3,9 @@ var app = express(); // starts express running
 var server = require('http').Server( app ) //start the server instance on a port
 var io = require('socket.io')(server) //use socket.io for real time connection (aka web sockets)
 
+var port = proccess.env.PORT || 8000
 
-
-server.listen(3010, function(){ //set up a server on prto 3000, do a call back when it started successfully
+server.listen(port, function(){ //set up a server on prto 3000, do a call back when it started successfully
   console.log("server started on 3010")
 
 })
