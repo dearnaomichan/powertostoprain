@@ -1,7 +1,7 @@
 {
   "name": "persistant-state",
   "version": "1.0.0",
-  "description": "",
+  "description": "hello there this is a cool project",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
